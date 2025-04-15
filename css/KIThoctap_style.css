@@ -1,0 +1,567 @@
+#container{
+    margin-top: 6%;
+    width: 100%;
+    height: 80%;
+
+}
+#titile a{
+    text-decoration: none;
+    color: #666;
+    
+}
+#wapper{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+
+}
+#menu{
+    margin: 0 auto;
+    width: 90vw;
+    min-height: 440px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+#titile
+{
+    width: 90%;
+    height: 30px;
+
+    margin: auto;
+    float: left;
+    margin-top: 20px;
+}
+#titile p{
+    float: left;
+    cursor: pointer;
+    font-size: 13px;    
+}
+#menu-left ul li:hover > ul {
+    display: block;
+}
+#left-titile{
+    width: 100%;
+    height: 32px;
+    background-color: #0791d0;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    color: #fff;
+    font-size: 15px;
+}
+.fa-bars{
+    padding-left: 5px;
+}
+#menu-right{
+    width: 85%;
+    max-height: 440px;
+    float: left;
+
+}
+#title-right{
+    width: 100%;
+    height: 32px;
+    background-color: #2B3944;
+    text-align: left;
+    position: relative;
+}
+
+#menu-list{
+    max-height: 440px;
+   
+ 
+}
+#menu-list ul{
+    list-style-type: none;
+    padding: 0;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 0px;
+    border-bottom: 1px solid #ddd;
+    
+}   
+
+#menu-list ul a{
+    color: #333333;
+    font-family: Arial,  sans-serif;
+    font-size: 12px;
+    font-weight: normal; 
+    color: inherit;
+    
+ 
+}
+#menu-list ul li{
+    position: relative;
+    display: block; 
+    padding: 10px 15px; 
+    margin: 5px 0; 
+    background-color: #f9f9f9; 
+    border-bottom: 1px solid #ddd; 
+    border-radius: 5px;
+}
+
+#menu-list ul li:hover {
+    background-color: #0791d0; 
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    cursor: pointer; 
+}
+
+
+#ads-right{
+    width: 15%;
+    height: 100%;
+    float: right;
+    position: relative; /* Đảm bảo phần tử có thể di chuyển */
+    
+}
+
+#ads-top img{
+    width: 100%;
+    height: 100%;
+}
+#ads-bot,#ads-top
+{
+    width: 100%;
+    height: 50%;
+    transition: transform 0.3s ease; /* Hiệu ứng mượt khi di chuột */
+}
+#ads-bot img{
+    width: 100%;
+    height: 100%;
+}
+#banner{
+    width: 85%;
+    height: 100%;
+    position: relative;
+    transition: transform 5s ease; 
+}
+#banner:hover {
+    transform: scale(0.9); 
+}
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+.fa-angle-left{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    cursor: pointer;
+}
+#banner .fa-angle-right{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    cursor: pointer;
+}
+
+#ads-top:hover, #ads-bot:hover {
+    transform: translateX(-10px); /* Thụt vào bên trái 10px khi hover */
+}
+#container ul li{
+    position: relative;
+}
+#container ul ul{
+    margin: 0px;
+    padding: 0px;
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    background-color: #fff;
+    z-index: 999;
+}
+#container li li{
+    width: 200px;
+    line-height: 20px;
+    border-bottom: 1px solid #ccc;
+}
+#container li:hover ul{
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+#container li li a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+#container li li a:hover{
+    color: #fff;
+    cursor: pointer;
+}
+#container li li:hover{
+    background-color: white;
+}
+
+#container li li:hover a{
+    color: orange;
+    transform: translateX(5px);
+    
+}
+#content{
+    width: 90%;
+    height: 100%;
+
+   
+}
+#detail{
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+
+}
+#left-detail{
+    width: 45%;
+    height: 100%;
+    float: left;
+
+}
+#rate{
+    width: 100%;
+    height: auto; /* Changed from 100% to auto to accommodate content */
+    float: left;
+    margin-bottom: 50px; /* Add space between content and footer */
+    clear: both; /* Ensure it clears any floated elements */
+}
+#left-top{
+    width: 100%;
+    height: 80%;
+    float: left;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+#left-bot{
+    width: 100%;
+    height: 20%;
+    float: left;
+    text-align: center; 
+    
+    
+}
+#left-bot .thumnail{
+    float: left;
+    width: 15%;
+    height: 80%;
+    margin: 10px 15px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+#left-top img{
+    width: 80%;
+    height: 100%;
+    
+    
+}
+#right-detail{
+    width: 55%;
+    height: 100%;
+    float: left;
+
+  
+}
+#menu-left{
+    width: 100%;
+    height: 100%;
+    float: left;
+    
+}
+#menu-right{
+    display: none;
+}
+
+
+/*Cho mobile*/
+@media only screen and (max-width: 768px) {
+    
+    
+}
+/*Cho tablet*/
+@media only screen and (min-width: 768px) {
+    .col-s-1 {width: 8.33%; }
+    .col-s-2 {width: 16.66%; }
+    .col-s-3 {width: 25%; }
+    .col-s-4 {width: 33.33%; }
+    .col-s-5 {width: 41.66%; }
+    .col-s-6 {width: 50%; }
+    .col-s-7 {width: 58.33%; }
+    .col-s-8 {width: 66.66%; }
+    .col-s-9 {width: 75%; }
+    .col-s-10 {width: 83.33%; }
+    .col-s-11 {width: 91.66%; }
+    .col-s-12 {width: 100%; }
+    
+}
+/*Cho laptop/PC*/
+@media only screen and (min-width: 1024px) {
+    .col-m-1 {width: 8.33%; }
+    .col-m-2 {width: 16.66%; }
+    .col-m-3 {width: 25%; }
+    .col-m-4 {width: 33.33%; }
+    .col-m-5 {width: 41.66%; }
+    .col-m-6 {width: 50%; }
+    .col-m-7 {width: 58.33%; }
+    .col-m-8 {width: 66.66%; }
+    .col-m-9 {width: 75%; }
+    .col-m-10 {width: 83.33%; }
+    .col-m-11 {width: 91.66%; }
+    .col-m-12 {width: 100%; }
+    #menu-left{
+        width: 15%;
+        height: 100%;
+        float: left;
+        
+    }
+    #menu-right{
+        display: block;
+    }
+    #pageView{
+        width: 70%;
+        height: 15px;
+        float: left
+    }
+    #pageStar{
+        color: yellow;
+        float: left;
+        width: 20%;
+        height: 15px;
+        margin-left: 10px;
+        
+    }
+    .fa-star{
+        cursor: pointer;
+        color: #415768c0;
+    }
+    #pageView p{
+        padding: 0px 20px;
+        float: left;
+        color: #333;
+        margin-left: 10px;
+     
+    }
+    #price{
+        float: left;
+        width: 90%;
+        height: 16%;
+        background: transparent url(https://web.nvnstatic.net/tp/T0161/img/bgPriceRed.png) no-repeat;
+        background-size: 100% 100%;
+        margin: 10px 10px;
+    }
+    #price p{
+        float: left;
+        text-align: left;
+        font-size: 20px;
+        color: #fff;
+        margin: 5px 15px;
+    }
+    .ship{
+        float: left;
+        width: 90%;
+        height: 10%;
+        margin-top: 10px;
+    }
+    .fa-check{
+        float: left;
+        font-size: 15px;
+        margin-left: 15px;
+        color: white;
+    }
+    #des{
+        width: 90%;
+        height: 100%;
+        float: left;
+
+        margin-left: 10px;
+    }
+    #num{
+        width: 100%;
+        height: 25px;
+        float: left;
+
+       
+    }
+    #num p{
+        float: left;
+        color: #333;
+        font-size: 15px;
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+    #number{
+        width: 45px;
+        height: 101%;
+        text-align: center;
+        margin-left: 20px;
+    }
+    #showBtn{
+        width: 100%;
+        height: 5%;
+
+        margin-top: 20px;
+    }
+    .btn{
+        width: 30%;
+        height: 100%;
+        float: left;
+        background-color: #da251c !important;
+        margin-left: 10px;
+        border-radius: 3px 0 0 3px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .btn-left{
+        width: 20%;
+        height: 100%;
+        float: left;
+        border-right:1px solid #e16055;
+        background: transparent url(https://web.nvnstatic.net/tp/T0161/img/cart.png) no-repeat ;
+        background-size:  80% 80%; 
+        background-position: center;
+
+        
+    }
+    .btn-right{
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        padding-top: 7px;
+    }
+    #deepStore{
+        width: 100%;
+        height: 20%;
+        float: left;
+        margin: 10px 10px;
+        border-bottom: 1px solid #ccc;
+    }
+    #deepStore h4{
+        font-size: 13px;
+        padding: 5px 0px;
+    }
+    #viewMap{
+        width: 100%;
+        height: 15px;
+        float: left;
+        margin: 10px 0px;
+   
+        font-size: 15px;
+    }
+    .fa-map-marker{
+        color: #0791d0;
+    }
+    #sp-online{
+        width: 100%;
+        height: 100%;
+        float: left;
+        margin: 10px 10px;
+        font-size: 15px;
+
+    }
+    #sp-online h4{
+        font-size: 13px;
+        padding: 5px 0px;
+    }
+    .hot{
+        width: 100%;
+        height: 28px;
+        float: left;
+        margin: 5px 0px;
+        font-size: 15px;
+    }
+    .hot-left{
+        width: 4%;
+        height: 100%;
+        float: left;
+    }
+    .hot-left img{
+        width: 100%;
+        height: 100%;
+    }
+    .hot p a{
+        color: #333;
+        float: left;
+        padding: 5px 5px;
+    }
+    .hot p a:hover{
+        color: #da251c  ;
+        text-decoration: none;
+    }
+    #tabs{
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+    .tab {
+        padding: 10px 20px;
+        cursor: pointer;
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-bottom: none;
+        margin-right: 5px;
+    }
+    .tab.active {
+        background-color: white;
+        border-bottom: 1px solid white;
+        margin-bottom: -1px;
+    }
+    .tab-content {
+        display: none;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-top: none;
+    }
+    .tab-content.active {
+        display: block;
+    }
+    .section-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 15px 0;
+    }
+    ul {
+        margin-left: 20px;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+    .nested-list {
+        list-style-type: circle;
+
+       
+    }
+    a {
+        color: #0066cc;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .product-title{
+        text-align: center;
+        color: #da251c;
+        font-size: 20px;
+    }
+}
+/*Cho TV*/  
+@media only screen and (min-width: 1280px){
+    .col-x-1 {width: 8.33%; }
+    .col-x-2 {width: 16.66%; }
+    .col-x-3 {width: 25%; }
+    .col-x-4 {width: 33.33%; }
+    .col-x-5 {width: 41.66%; }
+    .col-x-6 {width: 50%; }
+    .col-x-7 {width: 58.33%; }
+    .col-x-8 {width: 66.66%; }
+    .col-x-9 {width: 75%; }
+    .col-x-10 {width: 83.33%; }
+    .col-x-11 {width: 91.66%; }
+    .col-x-12 {width: 100%; }
+    
+}
